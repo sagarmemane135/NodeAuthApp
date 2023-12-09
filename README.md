@@ -13,4 +13,9 @@
         - `create database database_name;`
         - `use database_name;`
         - Create a table with script written in `createdb.sql`
+    - Connect to the SQL using root and provide access of database to the new user created !
+        - `mysql -u root -p`
+        - `GRANT ALL PRIVILEGES ON database.* TO 'username'@'host';`
+        - instead of * u can use specific table_name to provide specific permissions.
+        - 
           
