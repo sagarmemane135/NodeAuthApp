@@ -17,5 +17,5 @@
         - `mysql -u root -p`
         - `GRANT ALL PRIVILEGES ON database.* TO 'username'@'host';`
         - instead of * u can use specific table_name to provide specific permissions.
-        - 
+        - Now, new user has all permissions for the database
           
