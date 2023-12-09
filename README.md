@@ -18,4 +18,6 @@
         - `GRANT ALL PRIVILEGES ON database.* TO 'username'@'host';`
         - instead of * u can use specific table_name to provide specific permissions.
         - Now, new user has all permissions for the database
-          
+- Install NPM Packages using `sudo npm install`
+- create a `.env` file and add following variables to it.
+    - `DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, DB_PORT`
