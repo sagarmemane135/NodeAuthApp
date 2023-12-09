@@ -9,4 +9,5 @@
         - `CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
         - `exit`
         - `mysql -u username -p`
+    - In SQL, Create a Database and a Table inside it, with code given in `createdb.sql` file. 
           
