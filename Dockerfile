@@ -4,7 +4,7 @@ FROM node:19.3.0-alpine AS builder
 # Copy application code & Install Node.js dependencies
 WORKDIR /app
 COPY README.md ./
-COPY views ./
+COPY views ./views
 COPY createdb.sql ./
 COPY package.json ./
 COPY app.js ./
