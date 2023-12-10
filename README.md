@@ -6,7 +6,7 @@
     - Connect to mysql and Change Security Configurations with following commands:
         - `sudo mysql`
         - `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';`
-        - `CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
+        - `CREATE USER 'username'@'host' IDENTIFIED WITH mysql_native_password BY 'password';`
         - `exit`
         - `mysql -u username -p`
     - In SQL, Create a Database and a Table inside it, with code given in `createdb.sql` file.
